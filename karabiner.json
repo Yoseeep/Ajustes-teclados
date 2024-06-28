@@ -96,6 +96,33 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "poner ñ con alt + ;",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "semicolon",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "n",
+                                        "modifiers": [
+                                            "right_option"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "n"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
